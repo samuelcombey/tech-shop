@@ -1,5 +1,4 @@
 var MenuItems = document.getElementById("MenuItems")
-
 MenuItems.style.maxHeight = "0px"
 
 const menutoggle = () => {
