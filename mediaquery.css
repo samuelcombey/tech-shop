@@ -1,3 +1,12 @@
+@media only screen and (max-width: 1040px) {
+    .search-container {
+        /* margin-left: 10px; */
+        display: none;
+    }
+}
+
+
+
 /*-------- MEDIA QUERY FOR MENU ITEMS < 800px Screen Size -------*/
 
 @media only screen and (max-width: 800px) {
@@ -22,6 +31,9 @@
     .menu-icon {
         display: block;
         cursor: pointer;
+    }
+    .search-container {
+        display: none;
     }
 }
 
