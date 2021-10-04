@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "title": "FEATURED CATEGORIES img1",
+    "image": "https://m.media-amazon.com/images/G/01/kindle/2021/4105/Desktop-pack_3_JA_2_585x768._CB639800634_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "FEATURED CATEGORIES img2",
+    "image": "https://m.media-amazon.com/images/G/01/kindle/2021/4105/Desktop-pack-3_VA_1-585x768._CB639800634_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "FEATURED CATEGORIES img3",
+    "image": "https://m.media-amazon.com/images/G/01/kindle/2021/4105/Desktop-pack-3_ZS_3_585x768._CB639800634_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Sony WH1000-XM4",
+    "price": "$1,500.00",
+    "image": "https://spy.com/wp-content/uploads/2020/11/sony.jpg?resize=525,525"
+  },
+  {
+    "id": 5,
+    "title": "Philips Hue Starter Kit",
+    "price": "$348.00",
+    "image": "https://spy.com/wp-content/uploads/2021/04/511a1a2x3L._AC_SL1000_.jpg?resize=640,511"
+  },
+  {
+    "id": 6,
+    "title": "Sony 360 Reality Audio Speaker",
+    "price": "$698.00",
+    "image": "https://spy.com/wp-content/uploads/2021/02/91npNVy88QL._AC_SL1500_.jpg?resize=406,600"
+  },
+  {
+    "id": 7,
+    "title": "Apple AirPods Max",
+    "price": "$489.99",
+    "image": "https://spy.com/wp-content/uploads/2021/06/Apple-AirPods-max.jpg?resize=475,525"
+  },
+  {
+    "id": 8,
+    "title": "Oculus Quest 2",
+    "price": "$399.99",
+    "image": "https://spy.com/wp-content/uploads/2020/10/occulus-quest-2-1.jpg?resize=617,600"
+  },
+  {
+    "id": 9,
+    "title": "Anker Nebula Solar",
+    "price": "$399.99",
+    "image": "https://spy.com/wp-content/uploads/2021/03/anker-nebula-solar.png?resize=640,452"
+  },
+  {
+    "id": 10,
+    "title": "Tile Pro Bluetooth Trackers",
+    "price": "$59.99",
+    "image": "https://spy.com/wp-content/uploads/2021/01/51yo8mPox8L._AC_SL1200_.jpg?resize=549,525"
+  },
+  {
+    "id": 11,
+    "title": "iRobot Roomba i7 Robot Vacuum",
+    "price": "$749.00",
+    "image": "https://spy.com/wp-content/uploads/2021/06/Roomba-i7.jpg?resize=479,525"
+  },
+  {
+    "id": 12,
+    "title": "Dyson Pure Cool Purifying Fan",
+    "price": "$449.99",
+    "image": "https://spy.com/wp-content/uploads/2021/06/Dyson-Pure-Cool-fan.jpg?resize=525,525"
+  },
+  {
+    "id": 13,
+    "title": "Amazon Kindle Paperwhite",
+    "price": "$129.99",
+    "image": "https://spy.com/wp-content/uploads/2020/11/61eAq6gg-XL._AC_SL1000_.jpg?resize=475,480"
+  },
+  {
+    "id": 14,
+    "title": "Sony PS-LX310BT Bluetooth Record Player",
+    "price": "$198.00",
+    "image": "https://spy.com/wp-content/uploads/2020/11/sony-record-player.jpg?resize=589,480"
+  },
+  {
+    "id": 15,
+    "title": "Nintendo Switch",
+    "price": "$299.99",
+    "image": "https://spy.com/wp-content/uploads/2019/07/nintendo-switch.jpg?resize=700,484"
+  }
+]
