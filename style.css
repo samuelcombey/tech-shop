@@ -43,10 +43,19 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #ff523b;
 }
 
 ul {
     list-style-type: none;
+}
+ul:hover {
+    cursor: pointer;
 }
 
 .logo h1 {
@@ -62,6 +71,10 @@ ul {
 a {
     text-decoration: none;
     color: #555;
+}
+a:hover {
+
+    color: #ff523b;
 }
 p {
     color: #555;
