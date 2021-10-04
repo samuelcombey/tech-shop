@@ -12,54 +12,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="app.js"></script>
+
 </head>
 <body>
     <!------------ HEADER ------------>
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <h1>TechStore</h1>
-                </div>
-
-                <!--------- SEARCHBAR -------->
-
-                <!---------- NAVBAR ---------->
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="account.html">Account</a></li>
-                    </ul>
-                </nav>
-                <img src="images/cart.png" width=30px height="30px">
-                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h1>TechStore</h1>
             </div>
 
-            <!------------ MAIN ------------>
-            
+            <!--------- SEARCHBAR -------->
+
+            <!---------- NAVBAR ---------->
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width=30px height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
     </div>
     
-    <!-------------------------- FEATURED CATEGORIES ------------------------->
-    <!-- <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3 img1">
-                </div>
-                <div class="col-3 img2">
-                </div>
-                <div class="col-3 img3">
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-------------------------- FEATURED PRODUCTS ------------------------->
-    <!-- <div class="small-container">
-        <h2 class="tittle">Featured Products</h2>
+    <div class="small-container">
         <div class="row">
             <div class="col-4 img1">
             </div>
@@ -70,123 +51,8 @@
             <div class="col-4 img4">
             </div>
         </div>
+    </div>
 
-        <h2 class="tittle">Latest Products</h2>
-        <div class="row">
-            <div class="col-4 img5">
-            </div>
-            <div class="col-4 img6">
-            </div>
-            <div class="col-4 img7">
-            </div>
-            <div class="col-4 img8">
-            </div>
-
-        <div class="row">
-            <div class="col-4 img9">
-            </div>
-            <div class="col-4 img10">
-            </div>
-            <div class="col-4 img11">
-            </div>
-            <div class="col-4 img12">
-            </div>
-        </div>
-        </div>
-    </div> -->
-
-    <!-------------------------- OFFER ------------------------->
-    <!-- <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="https://img.mbtmag.com/files/base/indm/multi/image/2021/09/16x9/AmazonRobot.61546ee33b700.png?auto=format&fill=solid&fit=fill&h=720&w=1280" class="offer-img">
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available on TechStore</p>
-                    <h1>Amazon Astro</h1>
-                    <small>Keep home closer with Astro, the household robot for home monitoring, with Alexa. When you're away, use the Astro app to see a live view of your home, check in on specific rooms and viewpoints, and get activity alerts. When you're home, Astro can follow you from room to room playing your favorite music, podcasts or shows, and find you to deliver calls, reminders, etc...</small>
-                    <a href="http://" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-------------------------- TESTIMONIAL ------------------------->
-    <!-- <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel voluptatem architecto sint repudiandae enim omnis inventore? Dolore ut nisi adipisci consequuntur eaque ab aliquid tenetur in repellat, alias ipsa.
-                    </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <img src="images/user-1.png">
-                    <h3>Sara Parker</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel voluptatem architecto sint repudiandae enim omnis inventore? Dolore ut nisi adipisci consequuntur eaque ab aliquid tenetur in repellat, alias ipsa.
-                    </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <img src="images/user-2.png">
-                    <h3>Aaron Azzi</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel voluptatem architecto sint repudiandae enim omnis inventore? Dolore ut nisi adipisci consequuntur eaque ab aliquid tenetur in repellat, alias ipsa.
-                    </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <img src="images/user-3.png">
-                    <h3>Disa Smith</h3>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-------------------------- BRANDS ------------------------->
-    <!-- <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/logo-tesla.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-amazon.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-paypal.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-google.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-microsoft.png">
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <!-------------------------- FOOTER ------------------------->
     <div class="footer">
@@ -228,7 +94,6 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
 
 </body>
 </html>
