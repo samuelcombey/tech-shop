@@ -1,7 +1,10 @@
 $(document).ready(() => {
+    // Grabbing the element <nav> <ul> with id="MenuItems"
     var $menuItems = $("#MenuItems")
 
+    // Adding onClick fuction to the <img> with class=".menu-icon"
     $(".menu-icon").on('click', function() {
+        // Setting the maxHeight of #MenuItems Div with a class toggle() to hide or show when clicked
         $menuItems.css({maxHeight: "200px"}).toggle()
     })
 
@@ -10,12 +13,17 @@ $(document).ready(() => {
     //     return img
     // }
 
+    // Getting the data from json file
     $.getJSON("./data.json", function(data) {
+        // Creating a fuction that takes 2 parameters clssOfDiv, indexOfProduct
+        // Append <img> with picture of the product to display
         const createProducts = (classOfDiv, indexOfProduct) => {
             let product = $(classOfDiv).append($("<img>").attr('src', data[indexOfProduct].image))
             return product
         }
 
+        // Creating a fuction that takes 2 parameters classOfDiv, indexOfProduct which use the same index for tittle and price
+        // Append <img> with the picture, tittle and price of the product to display
         const createProductsWithDetails = (classOfDiv, indexOfProduct) => {
             let product = $(classOfDiv).append($("<img>").attr('src', data[indexOfProduct].image), $("<h4>").text(data[indexOfProduct].title), $("<p>").text(data[indexOfProduct].price))
             return product
