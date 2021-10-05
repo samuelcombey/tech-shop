@@ -3,7 +3,7 @@ TechShop | E-Commerce Site
 
 https://samuelcombey.github.io/tech-shop
 
-Simple E-Commerce Site made with HTML, jQuery and CSS
+Simple E-Commerce Site made with Pure HTML, JavaScript and CSS.
 _____
 Get Code
 
