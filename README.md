@@ -19,20 +19,17 @@ _______
 
 _______
 Bug(s)!! To FIX!
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
+* Making the search bar more responsive
+* Making the product images more responsive on windows with smaller height  
+* etc...
 
 ______
 Features Like To Add
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
+* Making the search box work
+* Add to cart btn and adding the item to cart
+* More dyinamic way of display the items when new items are added
+* Fixed nav bar when scrolling
+* TO Top arrow the sends you back to top of page
+* Host website on EC2
+* More CSS
+* ect...
