@@ -15,7 +15,7 @@ Website Hosted on AWS S3
 https://samuelcombeyecoms.s3.amazonaws.com/index.html
 
 _______
-[Screen Shot]()
+![Screen Shot](https://github.com/samuelcombey/tech-shop/blob/main/images/screenshot.JPG?raw=true)
 
 _______
 Bug(s)!! To FIX!
