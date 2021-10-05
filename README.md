@@ -7,7 +7,7 @@ Simple E-Commerce Site made with HTML, jQuery and CSS
 _____
 Get Code
 
-git clone https://github.com/combeysamuel/mod-1-project.git
+git clone https://github.com/samuelcombey/tech-shop.git
 
 _______
 Website Hosted on AWS S3
@@ -19,21 +19,20 @@ _______
 
 _______
 Bug(s)!! To FIX!
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
 
 ______
 Features Like To Add
-* 
-* 
-* 
-* 
-* 
-*  
-* 
-* 
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
