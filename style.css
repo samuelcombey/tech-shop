@@ -13,21 +13,16 @@ body {
     padding: 20px;
 }
 
-.search-container {
-    width: fit-content;
-    align-items: center;
-    text-align: center;
-    color: #fff;
+input {
+    color: #555;
     padding: 8px 20px;
     border-radius: 30px;
-}
-.search-container input {
-    border-radius: 30px;
     padding: 8px 20px;
-    width: fit-content;
+    width: 20vw;
     align-items: center;
     text-align: center;
     margin-left: 10vw;
+    font-size: 17px;
 }
 
 nav {
@@ -252,7 +247,7 @@ small {
 .footer {
     background: #000;
     color: #8a8a8a;
-    font-size: 14px ;
+    font-size: 14px;
     padding: 60px 0 20px;
 }
 .footer p {
